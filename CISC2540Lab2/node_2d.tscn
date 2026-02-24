@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://q4majlx16i3r"]
+
+[ext_resource type="Texture2D" uid="uid://duyduiofe5jcn" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://b3jsrjnsa8uuu" path="res://robot.gd" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=441536612]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=555345310]
+position = Vector2(480, 252)
+texture = ExtResource("1_0e48y")
+script = ExtResource("2_epypp")
+
+[node name="Icon2" type="Sprite2D" parent="." unique_id=1685076826]
+position = Vector2(803, 246)
+texture = ExtResource("1_0e48y")
+script = ExtResource("2_epypp")
+speed = 2
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=385447164]
+position = Vector2(1061, 248)
+texture = ExtResource("1_0e48y")
+script = ExtResource("2_epypp")
+speed = 3
